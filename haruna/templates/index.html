@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>每日五图</title>
+</head>
+<body>
+<h1>Haruna is a picture sharing station</h1>
+{% for share in shares %}
+    <div class="form-group">
+        <image width="800" src="{% static share %}"/>
+    </div>
+{% endfor %}
+</body>
+</html>
