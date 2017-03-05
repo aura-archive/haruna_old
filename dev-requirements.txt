@@ -1,0 +1,10 @@
+-r requirements.txt
+
+flake8
+ipython[notebook]
+django-debug-toolbar
+django-debug-toolbar-line-profiler
+pytest
+pytest-cov
+pytest-django
+coverage
