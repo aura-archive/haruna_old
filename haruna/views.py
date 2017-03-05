@@ -5,7 +5,7 @@ import random
 
 
 def index(request):
-    pic_base = '/pics/Wallpaper'
+    pic_base = '/pics/Wallpaper_All_cp'
     share_base = BASE_DIR + '/haruna/static' + pic_base
     pics = [s for s in os.listdir(share_base)]
     shares = []
